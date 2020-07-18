@@ -1,0 +1,129 @@
+
+body {
+  font-family: montserrat;
+}
+h1 {
+  font-family: montserrat-black;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: montserrat-blod;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title {
+  background-color: #FF4C68;
+  color: #fff;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+}
+
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "montserrat-light"
+}
+
+.dbut {
+  margin: 5% 3% 5% 0;
+}
+
+.titleimg {
+  width: 60%;
+  transform: rotate(25deg);
+  position:absolute;
+  right: 30%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.box {
+  text-align: center;
+}
+
+.fas {
+  color: #FF4C68;
+}
+
+#testimonials {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #FF4C68;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+}
+
+#press {
+  background-color: #FF4C68;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.plogo {
+  width: 15%;
+  padding: 20px 20px 50px
+}
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.price-col {
+  padding: 3% 2%;
+}
+
+#cta{
+  background-color: #FF4C68;
+  text-align: center;
+  padding: 8%;
+  color: white;
+  font-family: montserrat-blod;
+
+}
+
+#footer{
+text-align: center;
+padding: 3%
+
+}
+.ctah3{
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+.social-icon{
+  margin: 20px 10px;
+}
+
+@media (max-width:1028px) {
+  .titleimg{
+    position: static;
+    transform: rotate(0);
+  }
+  .container-fluid{
+    text-align:center;
+  }
+  }
